@@ -4,6 +4,9 @@
 	"version": "0.1.0",
 	"description": "Backend for project-management-app",
 	"main": "tasks/server.js",
+	"engines": {
+		"node": ">=18"
+	},
 	"scripts": {
 		"start": "node tasks/server.js",
 		"dev": "nodemon tasks/server.js"
